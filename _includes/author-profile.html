@@ -34,6 +34,15 @@
       {% if author.email %}
         <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>
       {% endif %}
+      {% if author.gmail %}
+        <li><a href="mailto:{{ author.gmail }}"><i class="fab fa-fw fa-google" aria-hidden="true"></i> Gmail</a></li>
+      {% endif %}
+      {% if author.phone %}
+        <li><a href="tel:{{ author.phone }}"><i class="fas fa-fw fa-phone" aria-hidden="true"></i> Phone</a></li>
+      {% endif %}
+      {% if author.skype %}
+        <li><a href="skype:{{ author.skype }}?chat"><i class="fab fa-fw fa-skype" aria-hidden="true"></i> Skype</a></li>
+      {% endif %}
       {% if author.keybase %}
         <li><a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i> Keybase</a></li>
       {% endif %}
@@ -93,6 +102,9 @@
       {% endif %}
       {% if author.weibo %}
         <li><a href="https://www.weibo.com/{{ author.weibo }}"><i class="fab fa-fw fa-weibo" aria-hidden="true"></i> Weibo</a></li>
+      {% endif %}
+      {% if author.telegram %}
+        <li><a href="https://t.me/{{ author.telegram }}"><i class="fab fa-fw fa-telegram" aria-hidden="true"></i> Telegram</a></li>
       {% endif %}
       {% if author.flickr %}
         <li><a href="https://www.flickr.com/{{ author.flickr }}"><i class="fab fa-fw fa-flickr" aria-hidden="true"></i> Flickr</a></li>

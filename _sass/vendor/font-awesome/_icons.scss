@@ -367,7 +367,7 @@ readers do not read off random characters that represent icons */
 .#{$fa-css-prefix}-ello:before { content: fa-content($fa-var-ello); }
 .#{$fa-css-prefix}-ember:before { content: fa-content($fa-var-ember); }
 .#{$fa-css-prefix}-empire:before { content: fa-content($fa-var-empire); }
-.#{$fa-css-prefix}-envelope:before { content: fa-content($fa-var-envelope); }
+.#{$fa-css-prefix}-envelope:before {  color: #276087; content: fa-content($fa-var-envelope); }
 .#{$fa-css-prefix}-envelope-open:before { content: fa-content($fa-var-envelope-open); }
 .#{$fa-css-prefix}-envelope-open-text:before { content: fa-content($fa-var-envelope-open-text); }
 .#{$fa-css-prefix}-envelope-square:before { content: fa-content($fa-var-envelope-square); }
@@ -505,7 +505,12 @@ readers do not read off random characters that represent icons */
 .#{$fa-css-prefix}-golf-ball:before { content: fa-content($fa-var-golf-ball); }
 .#{$fa-css-prefix}-goodreads:before { content: fa-content($fa-var-goodreads); }
 .#{$fa-css-prefix}-goodreads-g:before { content: fa-content($fa-var-goodreads-g); }
-.#{$fa-css-prefix}-google:before { content: fa-content($fa-var-google); }
+.#{$fa-css-prefix}-google:before {   background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  content: fa-content($fa-var-google); }
 .#{$fa-css-prefix}-google-drive:before { content: fa-content($fa-var-google-drive); }
 .#{$fa-css-prefix}-google-play:before { content: fa-content($fa-var-google-play); }
 .#{$fa-css-prefix}-google-plus:before { content: fa-content($fa-var-google-plus); }
@@ -513,7 +518,8 @@ readers do not read off random characters that represent icons */
 .#{$fa-css-prefix}-google-plus-square:before { content: fa-content($fa-var-google-plus-square); }
 .#{$fa-css-prefix}-google-wallet:before { content: fa-content($fa-var-google-wallet); }
 .#{$fa-css-prefix}-gopuram:before { content: fa-content($fa-var-gopuram); }
-.#{$fa-css-prefix}-graduation-cap:before { content: fa-content($fa-var-graduation-cap); }
+.#{$fa-css-prefix}-graduation-cap:before { color:#7ca3f2; content: fa-content($fa-var-graduation-cap); }
+.ai-google-scholar-square:before {color:#5086EC;content: ai-google-scholar-square;}
 .#{$fa-css-prefix}-gratipay:before { content: fa-content($fa-var-gratipay); }
 .#{$fa-css-prefix}-grav:before { content: fa-content($fa-var-grav); }
 .#{$fa-css-prefix}-greater-than:before { content: fa-content($fa-var-greater-than); }
@@ -694,9 +700,9 @@ readers do not read off random characters that represent icons */
 .#{$fa-css-prefix}-mandalorian:before { content: fa-content($fa-var-mandalorian); }
 .#{$fa-css-prefix}-map:before { content: fa-content($fa-var-map); }
 .#{$fa-css-prefix}-map-marked:before { content: fa-content($fa-var-map-marked); }
-.#{$fa-css-prefix}-map-marked-alt:before { content: fa-content($fa-var-map-marked-alt); }
+.#{$fa-css-prefix}-map-marked-alt:before { color:#10614e; content: fa-content($fa-var-map-marked-alt); }
 .#{$fa-css-prefix}-map-marker:before { content: fa-content($fa-var-map-marker); }
-.#{$fa-css-prefix}-map-marker-alt:before { content: fa-content($fa-var-map-marker-alt); }
+.#{$fa-css-prefix}-map-marker-alt:before { color:#1f8a54; content: fa-content($fa-var-map-marker-alt); }
 .#{$fa-css-prefix}-map-pin:before { content: fa-content($fa-var-map-pin); }
 .#{$fa-css-prefix}-map-signs:before { content: fa-content($fa-var-map-signs); }
 .#{$fa-css-prefix}-markdown:before { content: fa-content($fa-var-markdown); }
@@ -820,7 +826,7 @@ readers do not read off random characters that represent icons */
 .#{$fa-css-prefix}-phabricator:before { content: fa-content($fa-var-phabricator); }
 .#{$fa-css-prefix}-phoenix-framework:before { content: fa-content($fa-var-phoenix-framework); }
 .#{$fa-css-prefix}-phoenix-squadron:before { content: fa-content($fa-var-phoenix-squadron); }
-.#{$fa-css-prefix}-phone:before { content: fa-content($fa-var-phone); }
+.#{$fa-css-prefix}-phone:before { color:#601975; content: fa-content($fa-var-phone); }
 .#{$fa-css-prefix}-phone-slash:before { content: fa-content($fa-var-phone-slash); }
 .#{$fa-css-prefix}-phone-square:before { content: fa-content($fa-var-phone-square); }
 .#{$fa-css-prefix}-phone-volume:before { content: fa-content($fa-var-phone-volume); }
@@ -970,7 +976,7 @@ readers do not read off random characters that represent icons */
 .#{$fa-css-prefix}-skull:before { content: fa-content($fa-var-skull); }
 .#{$fa-css-prefix}-skull-crossbones:before { content: fa-content($fa-var-skull-crossbones); }
 .#{$fa-css-prefix}-skyatlas:before { content: fa-content($fa-var-skyatlas); }
-.#{$fa-css-prefix}-skype:before { content: fa-content($fa-var-skype); }
+.#{$fa-css-prefix}-skype:before { color:#3C8CD8; content: fa-content($fa-var-skype); }
 .#{$fa-css-prefix}-slack:before { content: fa-content($fa-var-slack); }
 .#{$fa-css-prefix}-slack-hash:before { content: fa-content($fa-var-slack-hash); }
 .#{$fa-css-prefix}-slash:before { content: fa-content($fa-var-slash); }
@@ -1004,7 +1010,7 @@ readers do not read off random characters that represent icons */
 .#{$fa-css-prefix}-spider:before { content: fa-content($fa-var-spider); }
 .#{$fa-css-prefix}-spinner:before { content: fa-content($fa-var-spinner); }
 .#{$fa-css-prefix}-splotch:before { content: fa-content($fa-var-splotch); }
-.#{$fa-css-prefix}-spotify:before { content: fa-content($fa-var-spotify); }
+.#{$fa-css-prefix}-spotify:before { color: #65D36E; content: fa-content($fa-var-spotify); }
 .#{$fa-css-prefix}-spray-can:before { content: fa-content($fa-var-spray-can); }
 .#{$fa-css-prefix}-square:before { content: fa-content($fa-var-square); }
 .#{$fa-css-prefix}-square-full:before { content: fa-content($fa-var-square-full); }
@@ -1073,7 +1079,7 @@ readers do not read off random characters that represent icons */
 .#{$fa-css-prefix}-teamspeak:before { content: fa-content($fa-var-teamspeak); }
 .#{$fa-css-prefix}-teeth:before { content: fa-content($fa-var-teeth); }
 .#{$fa-css-prefix}-teeth-open:before { content: fa-content($fa-var-teeth-open); }
-.#{$fa-css-prefix}-telegram:before { content: fa-content($fa-var-telegram); }
+.#{$fa-css-prefix}-telegram:before { color:#4194D0; content: fa-content($fa-var-telegram); }
 .#{$fa-css-prefix}-telegram-plane:before { content: fa-content($fa-var-telegram-plane); }
 .#{$fa-css-prefix}-temperature-high:before { content: fa-content($fa-var-temperature-high); }
 .#{$fa-css-prefix}-temperature-low:before { content: fa-content($fa-var-temperature-low); }
