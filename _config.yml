@@ -83,7 +83,7 @@ analytics:
 author:
   name             : "Mohammadhossein Naderi"
   avatar           : "avatar.jpg"
-  bio              : "BSc Student in Computer&nbsp;Engineering<br><a href='https://aut.ac.ir/en'><img src='images/aut.png'></a>"
+  bio              : "BSc Student in Computer&nbsp;Engineering<br><a href='https://aut.ac.ir/en'><img src='/images/aut.png'></a>"
   location         : "Tehran"
   employer         : 
   pubmed           : 
