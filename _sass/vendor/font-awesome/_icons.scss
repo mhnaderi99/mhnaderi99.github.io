@@ -367,7 +367,7 @@ readers do not read off random characters that represent icons */
 .#{$fa-css-prefix}-ello:before { content: fa-content($fa-var-ello); }
 .#{$fa-css-prefix}-ember:before { content: fa-content($fa-var-ember); }
 .#{$fa-css-prefix}-empire:before { content: fa-content($fa-var-empire); }
-.#{$fa-css-prefix}-envelope:before {  color: #276087; content: fa-content($fa-var-envelope); }
+.#{$fa-css-prefix}-envelope:before { content: fa-content($fa-var-envelope); }
 .#{$fa-css-prefix}-envelope-open:before { content: fa-content($fa-var-envelope-open); }
 .#{$fa-css-prefix}-envelope-open-text:before { content: fa-content($fa-var-envelope-open-text); }
 .#{$fa-css-prefix}-envelope-square:before { content: fa-content($fa-var-envelope-square); }
@@ -617,7 +617,7 @@ readers do not read off random characters that represent icons */
 .#{$fa-css-prefix}-infinity:before { content: fa-content($fa-var-infinity); }
 .#{$fa-css-prefix}-info:before { content: fa-content($fa-var-info); }
 .#{$fa-css-prefix}-info-circle:before { content: fa-content($fa-var-info-circle); }
-.#{$fa-css-prefix}-instagram:before { content: fa-content($fa-var-instagram); }
+.#{$fa-css-prefix}-instagram:before { color:#000000; content: fa-content($fa-var-instagram); }
 .#{$fa-css-prefix}-internet-explorer:before { content: fa-content($fa-var-internet-explorer); }
 .#{$fa-css-prefix}-ioxhost:before { content: fa-content($fa-var-ioxhost); }
 .#{$fa-css-prefix}-italic:before { content: fa-content($fa-var-italic); }
@@ -672,7 +672,7 @@ readers do not read off random characters that represent icons */
 .#{$fa-css-prefix}-lightbulb:before { content: fa-content($fa-var-lightbulb); }
 .#{$fa-css-prefix}-line:before { content: fa-content($fa-var-line); }
 .#{$fa-css-prefix}-link:before { content: fa-content($fa-var-link); }
-.#{$fa-css-prefix}-linkedin:before { content: fa-content($fa-var-linkedin); }
+.#{$fa-css-prefix}-linkedin:before { color:#000000; content: fa-content($fa-var-linkedin); }
 .#{$fa-css-prefix}-linkedin-in:before { content: fa-content($fa-var-linkedin-in); }
 .#{$fa-css-prefix}-linode:before { content: fa-content($fa-var-linode); }
 .#{$fa-css-prefix}-linux:before { content: fa-content($fa-var-linux); }
@@ -826,7 +826,7 @@ readers do not read off random characters that represent icons */
 .#{$fa-css-prefix}-phabricator:before { content: fa-content($fa-var-phabricator); }
 .#{$fa-css-prefix}-phoenix-framework:before { content: fa-content($fa-var-phoenix-framework); }
 .#{$fa-css-prefix}-phoenix-squadron:before { content: fa-content($fa-var-phoenix-squadron); }
-.#{$fa-css-prefix}-phone:before { color:#601975; content: fa-content($fa-var-phone); }
+.#{$fa-css-prefix}-phone:before { content: fa-content($fa-var-phone); }
 .#{$fa-css-prefix}-phone-slash:before { content: fa-content($fa-var-phone-slash); }
 .#{$fa-css-prefix}-phone-square:before { content: fa-content($fa-var-phone-square); }
 .#{$fa-css-prefix}-phone-volume:before { content: fa-content($fa-var-phone-volume); }
@@ -976,7 +976,7 @@ readers do not read off random characters that represent icons */
 .#{$fa-css-prefix}-skull:before { content: fa-content($fa-var-skull); }
 .#{$fa-css-prefix}-skull-crossbones:before { content: fa-content($fa-var-skull-crossbones); }
 .#{$fa-css-prefix}-skyatlas:before { content: fa-content($fa-var-skyatlas); }
-.#{$fa-css-prefix}-skype:before { color:#3C8CD8; content: fa-content($fa-var-skype); }
+.#{$fa-css-prefix}-skype:before { content: fa-content($fa-var-skype); }
 .#{$fa-css-prefix}-slack:before { content: fa-content($fa-var-slack); }
 .#{$fa-css-prefix}-slack-hash:before { content: fa-content($fa-var-slack-hash); }
 .#{$fa-css-prefix}-slash:before { content: fa-content($fa-var-slash); }
@@ -1079,7 +1079,7 @@ readers do not read off random characters that represent icons */
 .#{$fa-css-prefix}-teamspeak:before { content: fa-content($fa-var-teamspeak); }
 .#{$fa-css-prefix}-teeth:before { content: fa-content($fa-var-teeth); }
 .#{$fa-css-prefix}-teeth-open:before { content: fa-content($fa-var-teeth-open); }
-.#{$fa-css-prefix}-telegram:before { color:#4194D0; content: fa-content($fa-var-telegram); }
+.#{$fa-css-prefix}-telegram:before { content: fa-content($fa-var-telegram); }
 .#{$fa-css-prefix}-telegram-plane:before { content: fa-content($fa-var-telegram-plane); }
 .#{$fa-css-prefix}-temperature-high:before { content: fa-content($fa-var-temperature-high); }
 .#{$fa-css-prefix}-temperature-low:before { content: fa-content($fa-var-temperature-low); }

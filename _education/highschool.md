@@ -1,8 +1,7 @@
 ---
 title: "Teaching Assistant, Algorithm Design"
-collection: teaching
+collection: education
 type: "Undergraduate course"
-# permalink: /teaching/2019-algorithm
 venue: "Amirkabir University of Technology, Computer Engineering Department"
 date: 2019-01-01
 location: "City, Country"

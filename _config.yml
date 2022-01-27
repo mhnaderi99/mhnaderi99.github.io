@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Mohammadhossein Naderi"
 title_separator          : "-"
 name                     : &name "Mohammadhossien Naderi"
-description              : &description "BSc Student in Computer Engineering"
+description              : &description "B.S. Student in Computer Engineering"
 url                      : #https://mhnaderi99.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "mhnaderi99/mhnaderi99.github.io"
@@ -83,13 +83,12 @@ analytics:
 author:
   name             : "Mohammadhossein Naderi"
   avatar           : "avatar.jpg"
-  bio              : "BSc Student in Computer&nbsp;Engineering<br><a href='https://aut.ac.ir/en'><img src='/images/aut.png'></a>"
+  bio              : "B.S. Student in Computer&nbsp;Engineering at Amirkabir University of Technology<br><a href='https://aut.ac.ir/en'><img src='/images/aut.png'></a>"
   location         : "Tehran"
   employer         : 
   pubmed           : 
   googlescholar    : 
-  gmail            : "mhnaderi99@gmail.com"
-  email            : "m.naderi99@aut.ac.ir"
+  email            : "mhnaderi99@gmail.com"
   researchgate     : 
   uri              :
   bitbucket        : 
@@ -111,7 +110,7 @@ author:
   stackoverflow    : 
   steam            :
   tumblr           :
-  twitter          : "mhnaderi99"
+  twitter          :
   spotify          : 
   weibo            :
   xing             :
@@ -182,6 +181,9 @@ collections:
   teaching:
     output: true
     permalink: /:collection/:path/
+  education:
+    output: true
+    permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
@@ -222,6 +224,15 @@ defaults:
       author_profile: true
       share: true
       comments: true
+  # _education
+  - scope:
+      path: ""
+      type: education
+    values:
+      layout: single
+      author_profile: false
+      share: false
+      comments: false
   # _publications
   - scope:
       path: ""
