@@ -8,22 +8,24 @@ redirect_from:
   - /about.html
 ---
 
-**Hi**! My name is Mohammadhossein (MH) Naderi, a final-year B.S. student in [Computer Engineering at Amirkabir University of Technology](https://ce.aut.ac.ir/index.php?sid=4&slc_lang=en).
+**Hi**! My name is Mohammadhossein (MH) Naderi, an M.Sc. student in [Computer Science at York University](https://lassonde.yorku.ca/eecs/).
 
 <br/>
 
 Research Interests
 ======
-* Natural Language Processing
 * Machine Learning
-* Information Retrieval
+* Software Engineering
+* Data Mining
 
 <br/>
 
 
 Education
 ======
-* B.S. in Computer Engineering, Amirkabir University of Technology, 2022 (expected)
+* B.S. in Computer Engineering, Amirkabir University of Technology, 2022
+* M.Sc. in Computer Science, York University, 2025 (expected)
+
 
 <br/>
 
@@ -41,9 +43,18 @@ and finding enhancement opportunities is our priority.
 
 Teaching Experience
 ======
-* **Teaching Assistant, Amirkabir University of Technology (Tehran Polytechnic)**,    *Spring 2020*
+* **Teaching Assistant, York University**,    *Winter 2023*
+  * Supervisor: Professor [Marzieh Ahmadzadeh](https://lassonde.yorku.ca/users/marzieha)
+  * During this course, I was responsible for marking assignments, projects, and exams.
+  
+* **Teaching Assistant, York University**,    *Winter 2023*
+  * Supervisor: Professor [Larry Yueli Zhang](https://www.eecs.yorku.ca/~larryyz/)
+  * During this course, I was responsible for marking assignments, projects, and exams.
+
+* **Teaching Assistant, Amirkabir University of Technology (Tehran Polytechnic)**,    *Winter 2020*
   * Supervisor: Professor [Sara Bourbour](https://www.linkedin.com/in/sara-bourbour-54564063)
   * During this course, I was responsible for designing and marking assignments, projects, exams, and translating course materials from English to Persian.
+
 
 
 <br/>
