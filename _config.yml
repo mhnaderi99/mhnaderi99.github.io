@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Mohammadhossein Naderi"
 title_separator          : "-"
 name                     : &name "Mohammadhossien Naderi"
-description              : &description "M.Sc. Student in Computer Science"
+description              : &description "B.S. Student in Computer Engineering"
 url                      : #https://mhnaderi99.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "mhnaderi99/mhnaderi99.github.io"
@@ -83,8 +83,8 @@ analytics:
 author:
   name             : "Mohammadhossein Naderi"
   avatar           : "avatar.jpg"
-  bio              : "M.Sc. Student in Computer&nbsp;Science at York University<br><a href='https://aut.ac.ir/en'><img src='/images/yorku.ico></a>"
-  location         : "Toronto, CA"
+  bio              : "B.S. Student in Computer&nbsp;Engineering at Amirkabir University of Technology<br><a href='https://aut.ac.ir/en'><img src='/images/aut.png'></a>"
+  location         : "Tehran"
   employer         : 
   pubmed           : 
   googlescholar    : 
@@ -93,7 +93,7 @@ author:
   uri              :
   bitbucket        : 
   skype            : "mhnaderi99_1"
-  phone            : "+14375991537"
+  phone            : "+989383444200"
   telegram         : "mhnaderi99"
   facebook         : 
   foursquare       :
